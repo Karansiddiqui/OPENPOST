@@ -1,3 +1,5 @@
+[Visit OpenPost](https://openpost.onrender.com/)
+
 # OPENPOST
 
 OPENPOST is a platform that allows users to sign in, sign up manually, or use Google OAuth. It provides separate dashboards for admin and regular users, with various 
@@ -46,4 +48,21 @@ This will launch the application, accessible at `http://localhost:5173`.
   - Ability to manage user accounts.
   - Capability to delete comments.
   - Exclusive authority to publish blogs.
-  - Also has update profile section# OPENPOST
+  - Also has update profile section
+
+
+## Demo
+![Screenshot (22)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/6c3cbc83-f359-47ce-bd38-0cbfd7be2764)
+
+![Screenshot (23)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/c238914e-3975-4d46-a901-7e3f969d5033)
+
+![Screenshot (26)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/ad64b851-91bc-4214-a03c-2ae78127e9b2)
+
+![Screenshot (27)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/b903e09c-5626-4e10-bd18-6c96c4fa89cc)
+
+![Screenshot (28)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/b41c4d96-edef-42c7-b4c1-16e9d8f5f6a7)
+
+![Screenshot 2024-05-31 182117](https://github.com/Karansiddiqui/OpenPost/assets/106966063/b18b1024-1d1f-4395-a2b7-d1f637205dfb)
+
+![Screenshot (30)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/3cc3e736-c823-4ba3-aadb-bd9f52c61414)
+
