@@ -52,17 +52,17 @@ This will launch the application, accessible at `http://localhost:5173`.
 
 
 ## Demo
-![Screenshot (22)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/6c3cbc83-f359-47ce-bd38-0cbfd7be2764)
+![Screenshot (22)](https://github.com/Karansiddiqui/OPENPOST/assets/106966063/80c26c6c-0e0b-4faf-ba3f-f3895008d4a4)
 
-![Screenshot (23)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/c238914e-3975-4d46-a901-7e3f969d5033)
+![Screenshot (23)](https://github.com/Karansiddiqui/OPENPOST/assets/106966063/71a9629d-0b76-4230-9c2d-b5ab4580f8d9)
 
-![Screenshot (26)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/ad64b851-91bc-4214-a03c-2ae78127e9b2)
+![Screenshot (26)](https://github.com/Karansiddiqui/OPENPOST/assets/106966063/fe0a4418-bb94-4eac-b42d-57a6188c5112)
 
-![Screenshot (27)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/b903e09c-5626-4e10-bd18-6c96c4fa89cc)
+![Screenshot (27)](https://github.com/Karansiddiqui/OPENPOST/assets/106966063/d652f237-57db-44a9-a507-d65dc5736956)
 
-![Screenshot (28)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/b41c4d96-edef-42c7-b4c1-16e9d8f5f6a7)
+![Screenshot (28)](https://github.com/Karansiddiqui/OPENPOST/assets/106966063/98f36851-704a-4054-9c0c-b47164d1f334)
 
-![Screenshot 2024-05-31 182117](https://github.com/Karansiddiqui/OpenPost/assets/106966063/b18b1024-1d1f-4395-a2b7-d1f637205dfb)
+![Screenshot 2024-05-31 182117](https://github.com/Karansiddiqui/OPENPOST/assets/106966063/5b281e68-4aa0-4b0d-9e74-f8d309334ac3)
 
-![Screenshot (30)](https://github.com/Karansiddiqui/OpenPost/assets/106966063/3cc3e736-c823-4ba3-aadb-bd9f52c61414)
+![Screenshot (30)](https://github.com/Karansiddiqui/OPENPOST/assets/106966063/36e80b67-adb7-4080-b133-c0e9050c67be)
 
