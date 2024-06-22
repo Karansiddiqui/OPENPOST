@@ -151,7 +151,7 @@ export default function Header() {
         )}
         <Navbar.Toggle />
       </div>
-      <Navbar.Collapse className="dark:bg-[#0f0f0f] bg-white">
+      <Navbar.Collapse className="">
         <Link to={"/"}>
           <Navbar.Link active={path === "/"} as={"div"} className="flex justify-center">
             {" "}
