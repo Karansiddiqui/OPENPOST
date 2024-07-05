@@ -2,7 +2,8 @@
 
 # OPENPOST
 
-OPENPOST is a flexible blogging platform featuring dynamic search, easy sign-in options (manual, Google OAuth), and separate dashboards for admins and users. Admins can manage accounts, delete comments, and publish blogs, while users can engage with content by viewing, commenting, and liking posts. The platform also features user profile updates for personalization, promoting community interaction.
+OPENPOST is a platform that allows users to sign in, sign up manually, or use Google OAuth. It provides separate dashboards for admin and regular users, with various 
+OPENPOST is a versatile blogging platform that offers easy sign-in options, including manual sign-up and Google OAuth. It provides separate dashboards for admins and users, with admins having additional capabilities like managing user accounts, deleting comments, and publishing blogs. Users can view, comment on, and like posts effortlessly, fostering engagement within the community. The platform also includes a user profile update section for personalization.
 
 ## Table of Contents
 

@@ -151,35 +151,22 @@ export default function Header() {
         )}
         <Navbar.Toggle />
       </div>
-
-      <Navbar.Collapse>
+      <Navbar.Collapse className="">
         <Link to={"/"}>
-          <Navbar.Link active={path === "/"} as={"div"}>
-            <span className=" text-black text-base dark:text-gray-200">
-              Home
-            </span>
+          <Navbar.Link active={path === "/"} as={"div"} className="flex justify-center">
+            {" "}
+            {/* TODO: remember to use as div bcz anchor tags can't be nestted */}
+            Home
           </Navbar.Link>
         </Link>
-        {currentUser?.isAdmin && <Link to={"/create-post"}>
-          <Navbar.Link active={path === "/create-post"} as={"div"}>
-            <span className=" text-black text-base dark:text-gray-200">
-              Create Post
-            </span>
-          </Navbar.Link>
-        </Link>}
-        
         <Link to={"/about"}>
-          <Navbar.Link active={path === "/about"} as={"div"}>
-            <span className=" text-black text-base dark:text-gray-200">
-              About
-            </span>
+          <Navbar.Link className="flex justify-center" active={path === "/about"} as={"div"}>
+            About
           </Navbar.Link>
         </Link>
-        <Link to={"/search"}>
-          <Navbar.Link active={path === "/search"} as={"div"}>
-            <span className=" text-black text-base dark:text-gray-200">
-              All Posts
-            </span>
+        <Link to={"/posts"}>
+          <Navbar.Link className="flex justify-center" active={path === "/project"} as={"div"}>
+            Posts
           </Navbar.Link>
         </Link>
       </Navbar.Collapse>
