@@ -286,22 +286,25 @@ export default function DashProfile() {
         )}
       </form>
 
-      <div className="text-red-500 flex justify-between mt-5">
-        <span
-          onClick={() => {
-            setShowModal(true);
-          }}
-          className="cursor-pointer hover:text-red-700"
-        >
-          Delete Account
-        </span>
-        <span
-          onClick={handleSignout}
-          className="cursor-pointer hover:text-red-700"
-        >
-          Sign Out
-        </span>
-      </div>
+      {!currentUser.isAdmin && (
+        <div className="text-red-500 flex justify-between mt-5">
+          <span
+            onClick={() => {
+              setShowModal(true);
+            }}
+            className="cursor-pointer hover:text-red-700"
+          >
+            Delete Account
+          </span>
+          <span
+            onClick={handleSignout}
+            className="cursor-pointer hover:text-red-700"
+          >
+            Sign Out
+          </span>
+        </div>
+      )}
+
       {updateUserSuccess && (
         <Alert color="success" className="mt-5">
           {updateUserSuccess}
