@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "install-deps": "npm install && npm install --prefix client",
-
     "dev:api": "nodemon api/index.js",
     "dev:client": "npm --prefix client run dev",
     "dev": "concurrently \"npm run dev:api\" \"npm run dev:client\"",
@@ -25,7 +24,8 @@
     "express": "^4.19.2",
     "js-cookie": "^3.0.5",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.3.0"
+    "mongoose": "^8.3.0",
+    "redux-persist-expire": "^1.1.1"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
