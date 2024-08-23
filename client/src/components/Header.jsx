@@ -153,36 +153,38 @@ export default function Header() {
       </div>
 
       <Navbar.Collapse>
-        <Link to={"/"}>
-          <Navbar.Link active={path === "/"} as={"div"}>
-            <span className=" text-black text-base dark:text-gray-200">
-              Home
-            </span>
-          </Navbar.Link>
-        </Link>
-        {currentUser?.isAdmin && <Link to={"/create-post"}>
-          <Navbar.Link active={path === "/create-post"} as={"div"}>
-            <span className=" text-black text-base dark:text-gray-200">
-              Create Post
-            </span>
-          </Navbar.Link>
-        </Link>}
-        
-        <Link to={"/about"}>
-          <Navbar.Link active={path === "/about"} as={"div"}>
-            <span className=" text-black text-base dark:text-gray-200">
-              About
-            </span>
-          </Navbar.Link>
-        </Link>
-        <Link to={"/search"}>
-          <Navbar.Link active={path === "/search"} as={"div"}>
-            <span className=" text-black text-base dark:text-gray-200">
-              All Posts
-            </span>
-          </Navbar.Link>
-        </Link>
-      </Navbar.Collapse>
+          <Link to={"/"}>
+            <Navbar.Link active={path === "/"} as={"div"} className="flex justify-center">
+              <span className="font-courier-new text-lg text-black dark:text-green-400">
+                Home
+              </span>
+            </Navbar.Link>
+          </Link>
+          {currentUser?.isAdmin && (
+            <Link to={"/create-post"}>
+              <Navbar.Link active={path === "/create-post"} as={"div"} className="flex justify-center">
+                <span className="font-courier-new text-lg text-black dark:text-green-400">
+                  Create Post
+                </span>
+              </Navbar.Link>
+            </Link>
+          )}
+
+          <Link to={"/about"}>
+            <Navbar.Link active={path === "/about"} as={"div"} className="flex justify-center">
+              <span className="font-courier-new text-lg text-black dark:text-green-400">
+                About
+              </span>
+            </Navbar.Link>
+          </Link>
+          <Link to={"/search"}>
+            <Navbar.Link active={path === "/search"} as={"div"} className="flex justify-center">
+              <span className="font-courier-new text-lg text-black dark:text-green-400">
+                All Posts
+              </span>
+            </Navbar.Link>
+          </Link>
+        </Navbar.Collapse>
     </Navbar>
   );
 }
